@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitamin B12 Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #3b5998;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 42px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            background-image: url('VitaminB12-SG-770x533-1_jpg.webp');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .hero-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 32px;
+            margin: 10px;
+            background-color: #6a1b9a;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+        }
+
+        .btn:hover {
+            background-color: #8e44ad;
+        }
+
+        /* Information Section Styles */
+        .info-section {
+            background-color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .info-title {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #8e44ad;
+        }
+
+        .info-text {
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 14px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #8e44ad;
+        }
+
+        /* Style for Dialogflow Messenger */
+        .df-messenger-wrapper {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+
+        /* Style for the question prompt */
+        .question-prompt {
+            position: fixed;
+            bottom: 25px;
+            right: calc(15px + 60px + 10px);
+            background-color: #8e44ad;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            z-index: 9998;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .question-prompt:hover {
+            background-color: #6a1b9a;
+        }
+
+        /* Style for the arrow icon */
+        .fa-arrow-right {
+            margin-left: 5px;
+        }
+
+        /* Responsive Styles */
+        @media only screen and (max-width: 768px) {
+            .hero {
+                padding: 80px 0;
+            }
+            .hero-title {
+                font-size: 36px;
+            }
+            .hero-text {
+                font-size: 18px;
+            }
+            .btn {
+                padding: 10px 24px;
+                font-size: 16px;
+            }
+            .info-title {
+                font-size: 28px;
+            }
+            .info-text {
+                font-size: 14px;
+            }
+            .footer p {
+                font-size: 12px;
+            }
+            .social-icons a {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Vitamin B12</h1>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h2 class="hero-title">Information of Vitamin B12</h2>
+            <p class="hero-text">Discover why Vitamin B12 is crucial for your health and how you can ensure you're getting enough of it.</p>
+            <a href="#info" class="btn">Learn More</a>
+            <a href="https://paradox974333.github.io/chatbot2/" class="btn">Interactive Chatbot Interface</a>
+        </div>
+    </section>
+
+    <section id="info" class="info-section">
+        <div class="container">
+            <h2 class="info-title">About Vitamin B12</h2>
+            <p class="info-text">Vitamin B12, also known as cobalamin, is a water-soluble vitamin that is essential for various bodily functions. It plays a key role in the production of red blood cells, DNA synthesis, and neurological function.</p>
+            <p class="info-text">Vitamin B12 is primarily found in animal products such as meat, fish, eggs, and dairy products. However, it can also be obtained from fortified foods and supplements.</p>
+            <p class="info-text">A deficiency in vitamin B12 can lead to a range of symptoms, including fatigue, weakness, neurological issues, and anemia. It is important to ensure adequate intake of vitamin B12 through diet or supplementation to maintain overall health and well-being.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Vitamin B12 Hub. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include the Dialogflow Messenger element -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="vitaminb12"
+        agent-id="1e23efa3-be1b-4b2b-bc2d-9aef19d2284e"
+        language-code="en"
+        class="df-messenger-wrapper"
+    ></df-messenger>
+
+    <!-- Question prompt -->
+    <div class="question-prompt">Ask all your questions here <i class="fas fa-arrow-right"></i></div>
+</body>
+</html>
